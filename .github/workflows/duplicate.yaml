@@ -1,10 +1,10 @@
-name: Go CI
+name: Akash CI
 
 on:
   push:
-    branches: [ "test" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "test" ]
+    branches: [ "main" ]
   workflow_dispatch:
   
 jobs:
@@ -20,5 +20,3 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          
-# test_commit
